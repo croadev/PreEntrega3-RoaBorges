@@ -1,0 +1,34 @@
+.fondo-heather {
+  background-color: aqua;
+}
+
+.li-hover li:hover {
+  background-color: orange;
+}
+
+.fondo {
+  background-image: url("../imgs/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.content-fondo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h2,
+  p {
+    color: white;
+    text-align: center;
+  }
+}
