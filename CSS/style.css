@@ -1,6 +1,7 @@
 @charset "UTF-8";
 .fondo-heather {
   background-color: aqua;
+  height: 50px;
 }
 
 .li-hover li:hover {
@@ -30,6 +31,14 @@
 .content-fondo p {
   color: white;
   text-align: center;
+}
+
+.nav-center {
+  position: absolute;
+  height: 50px;
+  padding-top: 20px;
+  left: 50%;
+  transform: translatex(-50%);
 }
 
 .sombra {
